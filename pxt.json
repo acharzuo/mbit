@@ -5,15 +5,11 @@
     "license": "MIT",
     "dependencies": {
         "core": "*"
-      
-	
-
     },
     "files": [
         "README.md",
         "main.ts",
         "_locales/zh/mbit-strings.json"
-
     ],
     "testFiles": [
         "test.ts"

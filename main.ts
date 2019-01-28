@@ -61,7 +61,7 @@ namespace mbit_小车类 {
     const PRESCALE = 0xFE
 
     let initialized = false
-    let yahStrip: neopixel.Strip;
+    // let yahStrip: neopixel.Strip;
 
     export enum enColor {
 
@@ -457,13 +457,13 @@ namespace mbit_小车类 {
     //% blockGap=10
     //% color="#C814B8"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    export function RGB_Car_Program(): neopixel.Strip {
+    // export function RGB_Car_Program(): neopixel.Strip {
          
-        if (!yahStrip) {
-            yahStrip = neopixel.create(DigitalPin.P16, 3, NeoPixelMode.RGB);
-        }
-        return yahStrip;  
-    }
+    //     if (!yahStrip) {
+    //         yahStrip = neopixel.create(DigitalPin.P16, 3, NeoPixelMode.RGB);
+    //     }
+    //     return yahStrip;  
+    // }
 
 
 	//% blockId=mbit_ultrasonic_car block="ultrasonic return distance(cm)"
